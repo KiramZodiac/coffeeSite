@@ -6,7 +6,7 @@ export default function Coffee(props: any) {
     <div className="coffee">
       <h1>Coffee type: {props.type}</h1>
       <h2>price: {props.price}</h2>
-      <img src={props.image} alt="my coffee" height="200px" width="200px" />
+      <img src={props.image} alt="my coffee" />
       <h3>
         Description:
         {props.descripton}

@@ -18,6 +18,63 @@
   background-image: image("bk.jpeg");
   background-color: bisque;
 }
+
+/* Coffee.css */
+/* Coffee.css */
+
 .coffee {
-  padding-left: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+h1 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: #666;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 20%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+h3 {
+  color: #444;
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background-color 0.3s ease-in-out;
+
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+&:hover {
+  background-color: #45a049;
 }
